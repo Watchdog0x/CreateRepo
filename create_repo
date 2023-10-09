@@ -54,7 +54,6 @@ fi
 
 
 if [ -n "$github_token" ]; then
-    echo "i am her"
     token="$github_token"
 elif [ -z "$token" ]; then
     echo -e "Error: GitHub token not provided.\nSet the github_token environment variable or define the token variable in the script."
