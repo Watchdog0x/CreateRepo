@@ -38,7 +38,7 @@ This will create a new GitHub repository named "my-new-repo" with the descriptio
 To authenticate with GitHub, the script uses a personal access token. 
 Ensure that you have a valid token and set it in the `token` variable inside the script.
 
-## Using Environment Variable
+### Using Environment Variable
 
 You can also set the `github_token` environment variable, and the script will automatically use it.
 
